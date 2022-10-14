@@ -1,7 +1,7 @@
 Dataset taken from [here - *Navoneel Chakrabarty **@Kaggle***](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) 
 
 ### Architectures suitable for segmentation & works with any classificaion head:
-- U-Net
+- U-Net (supressed up/down-sampling)
 - ResNet (versions may vary, but >=30)
 - Any Encoder-Decoder based arch.
 - Transformers, but don't know how it will repsond with images. 
