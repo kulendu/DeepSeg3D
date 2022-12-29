@@ -7,10 +7,12 @@ in batches.
 
 """
 
-#from tifffile import imsave, imread
+from tifffile import imsave, imread
 import os
 import numpy as np
 import pickle
+from matplotlib import pyplot as plt
+import random
 
 
 def load_img(img_dir, img_list):
@@ -32,7 +34,7 @@ def imageLoader(img_dir, img_list, mask_dir, mask_list, batch_size):
 
     L = len(img_list)
 
-    #keras needs the generator infinite, so we will use while true  
+
     while True:
 
         batch_start = 0
@@ -59,12 +61,7 @@ def imageLoader(img_dir, img_list, mask_dir, mask_list, batch_size):
             batch_end += batch_size
             
 
-############################################
 
-#Test the generator
-
-from matplotlib import pyplot as plt
-import random
 
 train_img_dir = "./BraTS2020_TrainingData/input_data_3channels/images/"
 train_mask_dir = "./BraTS2020_TrainingData/input_data_3channels/masks/"
@@ -76,7 +73,7 @@ batch_size = 2
 train_img_datagen = imageLoader(train_img_dir, train_img_list, 
                                 train_mask_dir, train_mask_list, batch_size)
 
-#Verify generator.... In python 3 next() is renamed as __next__()
+
 img, msk = train_img_datagen.__next__()
 
 
