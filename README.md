@@ -1,4 +1,4 @@
-Dataset taken from [here - *Navoneel Chakrabarty **@Kaggle***](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection) 
+Dataset taken from [here - ***BraTS 2020 Challenge***](https://www.med.upenn.edu/cbica/brats2020/data.html) 
 
 ### Architectures suitable for segmentation & works with any classificaion head:
 - U-Net (supressed up/down-sampling)
