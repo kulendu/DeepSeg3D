@@ -1,5 +1,9 @@
 Dataset taken from [here - ***BraTS 2020 Challenge***](https://www.med.upenn.edu/cbica/brats2020/data.html) 
 
+![BraTS-main](https://www.med.upenn.edu/cbica/assets/user-content/images/BraTS/BRATS_banner_noCaption.png)
+
+
+
 ### Architectures suitable for segmentation & works with any classificaion head:
 - U-Net (supressed up/down-sampling)
 - ResNet (versions may vary, but >=30)
