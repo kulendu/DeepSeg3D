@@ -5,14 +5,13 @@ cd BraTS_fined_data
 
 mkdir -p train_data
 cd train_data
-wget 'https://drive.google.com/uc?export=download&id=1kQDvadZR_hTy9MjU4jOmrbh5HhYNrGPK' -O npy_image
-wget 'https://drive.google.com/uc?export=download&id=1k_EnaAd8S7VWyrLjkTcBmKIgEF_rxepp' -O npy_masks
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1-4aez3fMP_SXrFzyoZK3dnJ97kfwOoeJ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1-4aez3fMP_SXrFzyoZK3dnJ97kfwOoeJ" -O train_img.zip && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1-Dc3Ov1Mzh8_WuBPu4l7csaMKfRC1Lg2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1-Dc3Ov1Mzh8_WuBPu4l7csaMKfRC1Lg2" -O train_masks.zip && rm -rf /tmp/cookies.txt
 cd ..
 
 mkdir -p validation_data
 cd validation_data
-wget 'https://drive.google.com/uc?export=download&id=1Ya6hQ2YmR9MqFskNfr8DXE6k8GimukAa' -O npy_image_val
-wget 'https://drive.google.com/uc?export=download&id=1n4tPigE32gpUHevN23h8IzoGcHO7gSVJ' -O npy_masks_val
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1-FoShRUkK07DUVxhPSkGGCEeIiQoKJYr' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1-FoShRUkK07DUVxhPSkGGCEeIiQoKJYr" -O val_img.zip && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1-LeAFBxiVcBarCgEAenGgpmYNi108xzt' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1-LeAFBxiVcBarCgEAenGgpmYNi108xzt" -O val_masks.zip && rm -rf /tmp/cookies.txt
 cd ..
-
 
