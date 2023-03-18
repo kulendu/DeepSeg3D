@@ -18,20 +18,17 @@ Run the following code to install all pip packages:
 python3 ./scripts/pkg_install.py
 ```
 
-Dataset taken from [here - ***BraTS 2020 Challenge***](https://www.med.upenn.edu/cbica/brats2020/data.html) 
+<!--  Dataset taken from [here - ***BraTS 2020 Challenge***](https://www.med.upenn.edu/cbica/brats2020/data.html) 
 
-![BraTS-main](https://www.med.upenn.edu/cbica/assets/user-content/images/BraTS/BRATS_banner_noCaption.png)
+![BraTS-main](https://www.med.upenn.edu/cbica/assets/user-content/images/BraTS/BRATS_banner_noCaption.png)  -->
 
+## Prepare the data
+1. run the following script to download the generated and conerted data (in pkl format)
+```sh
+python3 ./scripts/download_generated_pkl_files.sh 
+```
+2. run the following script to download the full dataset 
+```sh
+python3 ./scripts/download_full_data.sh 
+```
 
-
-### Architectures suitable for segmentation & works with any classificaion head:
-- U-Net (supressed up/down-sampling)
-- ResNet (versions may vary, but >=30)
-- Any Encoder-Decoder based arch.
-- Transformers, but don't know how it will repsond with images. 
-
-### Executable pipeline, so far:
-- [x] Collect data
-- [ ] Augment/or, (use some other image reproducing techniques). **Reason:** The data is way too sensitive, so reprodcing must be feature-extraction friendly.
-- [ ] Form the Neural-Architecture.
-- [ ] Know the *Medical terminologies* regarding the data and the *disease* as well.
