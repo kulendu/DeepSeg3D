@@ -23,7 +23,7 @@ python3 ./scripts/pkg_install.py
 ![BraTS-main](https://www.med.upenn.edu/cbica/assets/user-content/images/BraTS/BRATS_banner_noCaption.png)  -->
 
 ## Prepare the data
-1. run the following script to download the generated and conerted data (in pkl format)
+1. run the following script to download the generated and conerted data (in pkl format) and copy them under `the root folder ./`
 ```sh
 python3 ./scripts/download_generated_pkl_files.sh 
 ```
