@@ -25,10 +25,10 @@ python3 ./scripts/pkg_install.py
 ## Prepare the data
 1. run the following script to download the generated and conerted data (in pkl format) and copy them under `the root folder ./`
 ```sh
-python3 ./scripts/download_generated_pkl_files.sh 
+sh ./scripts/download_generated_pkl_files.sh 
 ```
 2. run the following script to download the full dataset 
 ```sh
-python3 ./scripts/download_full_data.sh 
+sh ./scripts/download_full_data.sh 
 ```
 
