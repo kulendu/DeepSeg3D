@@ -1,4 +1,5 @@
-This repository contains a TensorFlow implementation of 'paper_name' 
+This repository contains a TensorFlow implementation of Semantic Segmentation of Brain Tumor on multi-band 3D volumes using non-uniform 3D UNets 
+
 This codebase provides:
 - Testing code
 - Visualization code
