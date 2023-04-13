@@ -1,5 +1,7 @@
 This repository contains a TensorFlow implementation of Semantic Segmentation of Brain Tumor on multi-band 3D volumes using non-uniform 3D UNets 
 
+![](https://github.com/kulendu/DeepSeg3D/blob/master/images/merged-pipeline.png)
+
 This codebase provides:
 - Testing code
 - Visualization code
