@@ -29,9 +29,16 @@ python3 ./scripts/pkg_install.py
 1. run the following script to download the generated and conerted data (in pkl format) and copy them under `the root folder ./`
 ```sh
 sh ./scripts/download_generated_pkl_files.sh 
-```
+```https://github.com/kulendu/DeepSeg3D/blob/master/images/param-table.png
 2. run the following script to download the full dataset 
 ```sh
 sh ./scripts/download_full_data.sh 
 ```
+
+## Architecture definations
+The model definations are shown here:\
+![](https://github.com/kulendu/DeepSeg3D/blob/master/images/param-table.png)\
+
+w/ all the model's performance: \
+![](https://github.com/kulendu/DeepSeg3D/blob/master/images/info-table.png)
 
