@@ -36,9 +36,20 @@ sh ./scripts/download_full_data.sh
 ```
 
 ## Architecture definations
-The model definations are shown here:\
-![](https://github.com/kulendu/DeepSeg3D/blob/master/images/param-table.png)\
+The model definations are shown here:
 
-w/ all the model's performance: \
-![](https://github.com/kulendu/DeepSeg3D/blob/master/images/info-table.png)
+<div align="center">
+    <img src="https://github.com/kulendu/DeepSeg3D/blob/master/images/param-table.png">
+  <br>
+  Figure: Detailed parameters for all the five models
+</div>
+
+
+w/ all the model's performance: 
+<div align="center">
+    <img src="https://github.com/kulendu/DeepSeg3D/blob/master/images/info-table.png">
+    <br>
+  Figure: Info. and statistical data of the models
+</div>
+
 
